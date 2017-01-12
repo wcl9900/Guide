@@ -1,13 +1,12 @@
 # Guide
-新手引导视图
-效果图
+    新手引导视图
+    效果图
 
-![image](https://github.com/wcl9900/Guide/blob/master/guide.gif)
+    ![image](https://github.com/wcl9900/Guide/blob/master/guide.gif)
 
-使用方式（代码见工程demo）
+    使用方式（代码见工程demo）
 
-mHightLight = new Guide(MainActivity.this)
-
+    mHightLight = new Guide(MainActivity.this)
                 .anchor(findViewById(R.id.id_container))
                 .animIn(R.anim.anim_fade_in)
                 .animOut(R.anim.anim_fade_out)
