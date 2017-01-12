@@ -2,7 +2,7 @@
     新手引导视图
     效果图
 
-    ![image](https://raw.githubusercontent.com/wcl9900/Guide/master/guide.gif)
+    ![name](https://raw.githubusercontent.com/wcl9900/Guide/master/guide.gif)
 
     使用方式（代码见工程demo）
 
