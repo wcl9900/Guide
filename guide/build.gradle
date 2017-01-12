@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'maven'
 
 android {
     compileSdkVersion 23
@@ -17,7 +18,20 @@ android {
         }
     }
 }
-
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: 'file:///D:/Work/repo/')
+            pom.project{
+                groupId 'com.wcl'
+                artifactId 'guide'
+                version '1.0'
+                packaging 'aar'
+                description '新手引导库'
+            }
+        }
+    }
+}
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'

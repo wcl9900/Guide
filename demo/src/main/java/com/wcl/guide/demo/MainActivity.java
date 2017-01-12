@@ -40,9 +40,8 @@ public class MainActivity extends AppCompatActivity
                 .anchor(findViewById(R.id.id_container))
                 .animIn(R.anim.anim_fade_in)
                 .animOut(R.anim.anim_fade_out)
-
-                .next()
-                .shadow(true)
+                .next()//创建一页引导
+                .shadow(true)//是否显示描边阴影
                 .addHighLight(R.id.id_btn_important_right, R.layout.info_gravity_right_up, new Guide.OnPosCallback(){
                     @Override
                     public void getPos(float rightMargin, float bottomMargin, RectF rectF, Guide.LayoutParams layoutParams) {
