@@ -1,10 +1,10 @@
 # Guide
     新手引导视图
-    效果图
+#效果图
 
     ![name](https://raw.githubusercontent.com/wcl9900/Guide/master/guide.gif)
 
-    使用方式（代码见工程demo）
+#使用方式（代码见工程demo）
 
     mHightLight = new Guide(MainActivity.this)
                 .anchor(findViewById(R.id.id_container))
